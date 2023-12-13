@@ -1,0 +1,512 @@
+	body{
+		padding: 0;
+		margin: 0;
+	}
+
+	.nav{
+		display: flex;
+		justify-content: space-between;
+		padding: 10px;
+		color: green;	
+	}
+
+	.hometext{
+		display: flex;
+		list-style: none;
+		margin-right: 5px;		
+	}
+
+	.hometext1 a{
+		text-decoration: none;
+		color: green;
+		margin-left: 300px;
+	}
+
+	.hometext2 a{
+		text-decoration: none;
+		list-style: none;
+		color:blue;
+		margin-left: 25px;	
+	}
+
+	.hometext3 a{
+		text-decoration: none;
+		list-style: none;
+		margin-right: 780px;
+		color: grey;	
+	}
+
+	.hometext4 a{
+		text-decoration: none;
+		color: green;
+		margin-left: 100px;
+	}
+
+	
+	.chair{
+		display: flex;
+		list-style: none;			
+	}
+
+
+	.cow{
+		margin-left: 80px;
+	}
+
+	.cake{
+		display: flex;
+		justify-content: space-between;
+		margin-left: 40px;
+	}
+
+	.btn1{
+		border: none;
+		background: lightgrey;
+		color: white;
+		padding: 10px;
+		cursor: pointer;
+		font-size: 10px;
+		padding-top: 2px;
+		padding-left: 4px;
+		border-radius: 4px;
+		width: 37px;
+		padding: 3px;
+		margin-left: 720px;
+		
+	}
+
+	.btn1:hover{
+		cursor: pointer;
+		background: azure;
+		color: darkorange;
+		padding: 5px;
+		transition: 1s ease all;
+		border-radius: 30px;
+	}
+
+	.btn2{
+		border: none;
+		background: blue;
+		color: white;
+		padding: 10px;
+		cursor: pointer;
+		font-size: 10px;
+		padding-top: 2px;
+		border-radius: 4px;
+		width: 37px;
+		padding: 3px;
+		margin-left: 10px;
+	}
+
+	.btn2:hover{
+		cursor: pointer;
+		background: azure;
+		color: darkorange;
+		padding: 5px;
+		transition: 1s ease all;
+		border-radius: 30px;
+	}
+
+	.ppp{
+		border: none;
+		color: green;
+		margin-right: 50px;
+	}
+
+	.cup{
+		display:flex;
+	}
+
+	.app{
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+	}
+
+	.nnn{
+		padding: 60px;
+		padding-top: 0;
+		background: white;	
+	}
+	
+
+	.ball{
+		margin-left: 3px;
+		display: flex;
+		align-items: center;
+	}
+
+	.pool{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.form{
+		display:flex;
+		justify-content:space-between;
+		flex-direction:column;
+		background:white;
+	}
+
+
+	.street{
+		width:600px;
+		height: 30px;
+		
+	}
+
+	.street1{
+		width: 200px;
+		height: 20px;
+		
+	}
+
+	.street2{
+		width: 500px;
+		height: 30px;
+		
+	}
+
+	.street3{
+		width: 80px;
+		height: 30px;	
+	}
+	
+	.street4{
+		width: 200px;
+		height: 20px;
+		margin-right: 400px;
+		
+	}	
+
+	
+	select{
+		background:lightgrey;
+		border:none;
+		color: brown;
+		border-radius: 5px;
+		padding-top: 30px;
+	}
+
+	input{
+		background:lightgrey;
+		border:none;
+		border-radius: 5px;
+		padding-bottom:10px;
+	}
+
+	.tribal{
+		margin-top: 0;
+	}
+
+	table{
+  		border-collapse: collapse;
+		width:100%;
+		text-align: center;
+		height: 140px;	
+	}
+
+	tr{
+ 		border: 1px solid red;
+  		padding: 3px;
+		text-align: center;
+		background:white;	
+	}
+
+	.tr1{
+ 		border: 1px solid grey;
+  		padding: 3px;
+  		text-align: center;
+		background:white;
+		
+	}
+
+	th{
+ 		border: 1px solid grey;
+  		padding: 3px;
+  		text-align: left;
+		background:lightgrey;
+		
+	}
+
+	.submit{
+		background: blue;
+		color:white;
+		border-radius: 5px;
+		width: 60px;
+	}
+
+	.submit:hover{
+		cursor: pointer;
+		background: azure;
+		color: darkorange;
+		padding: 5px;
+		transition: 1s ease all;
+		border-radius: 30px;
+	}
+
+	.cup3{
+		display: flex;
+		margin-left:95%;
+		padding:5px;
+	}
+
+
+	.footer{
+		padding: 5px;
+		color:grey;
+		display:flex;
+		justify-content: space-between;
+	}
+
+	.hometext5{
+		display: flex;
+		align-items: center;
+		padding: 0;
+		margin-right: 10px;
+		background: none;
+		outline: none;
+		color:green;
+	}
+
+	@media (max-width:600px) { 
+		body{
+			padding:0	
+		}
+
+		.nav{
+			display: flex;
+			justify-content: space-between;
+			padding: 5px;
+			color: red;	
+		}
+		
+		.hometext{
+			display: flex;
+			list-style: none;
+			margin-right: 5px;		
+		}
+
+		.hometext1 a{
+			text-decoration: none;
+			color: green;
+			margin-left: 5px;
+		}
+
+		.hometext2 a{
+			text-decoration: none;
+			list-style: none;
+			color:blue;
+			margin-left: 1px;	
+		}
+
+		.hometext3 a{
+			text-decoration: none;
+			list-style: none;
+			margin-right: 80px;
+			color: red;	
+		}
+
+		.hometext4 a{
+			text-decoration: none;
+			color: green;
+			margin-left: 40px;
+		}
+
+		.chair{
+			display: flex;
+			list-style: none;		
+		}
+
+		.cow{
+			margin-left: 40px;
+		}
+
+		.cake{
+			display: flex;
+			justify-content: space-between;
+			margin-left: 20px;
+		}
+
+		.btn1{
+			border: none;
+			background: lightgrey;
+			color: white;
+			padding: 10px;
+			cursor: pointer;
+			font-size: 10px;
+			padding-top: 2px;
+			padding-left: 4px;
+			border-radius: 4px;
+			width: 37px;
+			padding: 3px;
+			margin-left: 200px;
+		}
+
+		.btn1:hover{
+			cursor: pointer;
+			background: azure;
+			color: darkorange;
+			padding: 5px;
+			transition: 1s ease all;
+			border-radius: 30px;
+		}
+
+		.btn2{
+			border: none;
+			background: blue;
+			color: white;
+			padding: 10px;
+			cursor: pointer;
+			font-size: 10px;
+			padding-top: 2px;
+			border-radius: 4px;
+			width: 37px;
+			padding: 3px;
+			margin-left: 10px;
+		}
+
+		.btn2:hover{
+			cursor: pointer;
+			background: azure;
+			color: darkorange;
+			padding: 5px;
+			transition: 1s ease all;
+			border-radius: 30px;
+		}
+
+		.nnn{
+			padding: 30px;
+			padding-top: 0;
+			background: white;	
+		}
+
+		.ball{
+			margin-left: 2px;
+			display: flex;
+			align-items: center;
+		}
+
+		.pool{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.form{
+			display:flex;
+			justify-content:space-between;
+			flex-direction:column;
+			background:white;
+			margin-right: 15px;
+		}
+
+	
+		.street{
+			width:200px;
+			height: 30px;
+		}
+
+		.street1{
+			width: 180px;
+			height: 20px;
+		}
+
+		.street2{
+			width: 250px;
+			height: 30px;
+		}
+
+		.tribal{
+			margin-top: 0;
+		}
+
+		.street4{
+			width: 180px;
+			height: 20px;
+			margin-right: 10px;
+		}
+
+		select{
+			background: lightgrey;
+			border: none;
+			border-radius: 5px;
+			padding-top: 30px;
+		}
+
+		input{
+			background: lightgrey;
+			border: none;
+			border-radius: 5px;
+			padding-bottom: 10px;
+		}
+
+		
+		table{
+  			border-collapse: collapse;
+			width: 100%;
+			text-align: center;
+			height: 150px;	
+		}
+
+		.aaa{
+			width:20px;
+
+		}
+	
+		tr{
+ 			border: 1px solid red;
+  			padding: 3px;
+			text-align: center;
+			background:white;	
+		}
+
+		.tr1{
+ 			border: 1px solid grey;
+  			padding: 3px;
+  			text-align: center;
+			background:rgb(189, 20, 20);
+		}
+
+		th{
+ 			border: 1px solid grey;
+  			padding: 3px;
+  			text-align: left;
+			background:lightgrey;
+		}
+
+		.submit{
+			background: red;
+			color:white;
+			border-radius: 5px;
+			width: 50px;
+		}
+
+		.submit:hover{
+			cursor: pointer;
+			background: azure;
+			color: darkorange;
+			padding: 5px;
+			transition: 1s ease all;
+			border-radius: 30px;
+		}
+
+		.cup{
+			display:flex;
+		}
+
+		.cup3{
+			display: flex;
+			margin-left:90%;
+			padding:5px;
+		}
+
+
+		.footer{
+			padding: 5px;
+			color:grey;
+			display:flex;
+			justify-content: space-between;
+		}
+	}
